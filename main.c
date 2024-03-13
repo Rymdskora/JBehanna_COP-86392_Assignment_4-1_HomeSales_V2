@@ -69,11 +69,9 @@ int main(void) {
 // Compare the user's input with two letters (we could use || but this is reader friendly!)
 bool compareInput(char *humanInput, char *uppercase, char *lowercase) {
   if (strcmp(humanInput, uppercase) == 0) {
-    printf("\n YARR, THIS BE THE INPUT: %s, AND THIS BE THE UPPERCASE: %s", humanInput, uppercase);
     return true; 
   }
   else if (strcmp(humanInput, lowercase) == 0) {
-    printf("\n YARR, THIS BE THE INPUT: %s, AND THIS BE THE LOWERCASE: %s", humanInput, lowercase);
     return true; 
   }
   else {
